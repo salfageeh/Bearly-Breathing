@@ -1,11 +1,18 @@
 import type { Metadata, Viewport } from 'next'
-import { Satisfy, Nunito } from 'next/font/google'
+import { Satisfy, Nunito, DynaPuff } from 'next/font/google'
 import './globals.css'
 
 const satisfy = Satisfy({
   weight: '400',
   subsets: ['latin'],
   variable: '--font-satisfy',
+  display: 'swap',
+})
+
+const dynaPuff = DynaPuff({
+  weight: '700',
+  subsets: ['latin'],
+  variable: '--font-dynapuff',
   display: 'swap',
 })
 
@@ -37,7 +44,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${satisfy.variable} ${nunito.variable}`} style={{ height: '100%', overflow: 'hidden' }}>
+    <html lang="en" className={`${satisfy.variable} ${nunito.variable} ${dynaPuff.variable}`} style={{ height: '100%', overflow: 'hidden' }}>
       <body style={{ height: '100%', margin: 0, overflow: 'hidden', position: 'relative' }}>
         {children}
       </body>

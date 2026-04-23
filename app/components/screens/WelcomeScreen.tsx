@@ -62,7 +62,7 @@ export function WelcomeScreen({
       {/* Header row */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 12, gap: 10 }}>
         <div style={{ flex: 1, minWidth: 0 }}>
-          <div style={{ fontFamily: 'var(--font-satisfy), cursive', fontSize: 36, lineHeight: 1, color: '#4a3528', letterSpacing: '-0.5px', whiteSpace: 'nowrap' }}>
+          <div style={{ fontFamily: 'var(--font-dynapuff), cursive', fontSize: 30, lineHeight: 1, color: '#4a3528', whiteSpace: 'nowrap' }}>
             Bearly Breathing
           </div>
           <div style={{ fontFamily: 'var(--font-nunito), sans-serif', fontSize: 13, fontWeight: 700, color: '#8a7a6a', marginTop: 6, letterSpacing: 0.3 }}>
