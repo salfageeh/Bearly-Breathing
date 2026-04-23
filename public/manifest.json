@@ -1,0 +1,17 @@
+{
+  "name": "Bearly Breathing",
+  "short_name": "Bearly",
+  "description": "A guided breathing exercise app with Biscuit & Boba",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf6e3",
+  "theme_color": "#c8e8e0",
+  "icons": [
+    {
+      "src": "/bear-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
